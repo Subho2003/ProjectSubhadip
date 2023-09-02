@@ -8,10 +8,10 @@ def fibo(n):
   elif n == 1:
     print(b)
   else:
-    print(a," ", b)
+    print(a, " ", b, end=" ")
     for i in range(2, n+1):
       c = a + b
-      print(c)
+      print(c, end=" ")
       a = b
       b = c
 print("Fibonacci Series Program : ")
