@@ -9,7 +9,7 @@ def fibo(n):
     print(b)
   else:
     print(a, b, end=" ")
-    for i in range(2, n+1):
+    for i in range(2, n):
       c = a + b
       print(c, end=" ")
       a = b
