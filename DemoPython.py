@@ -15,5 +15,5 @@ def fibo(n):
       return b
 
 print("Fibonacci Series Program : ")
-n = input("Enter the number of terms you want to print : ")
+n = int(input("Enter the number of terms you want to print : "))
 print(fibo(n))
