@@ -1,4 +1,6 @@
 def fibo(n):
+  a = 0
+  b = 1
   if n < 0:
     print("Invalid Input")
   elif n == 0:
@@ -13,7 +15,5 @@ def fibo(n):
       return b
 
 print("Fibonacci Series Program : ")
-a = 0
-b = 1
 n = int(input("Enter the number of terms you want to print : "))
 print(fibo(n))
