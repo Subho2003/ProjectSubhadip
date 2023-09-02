@@ -8,7 +8,8 @@ def fibo(n):
   elif n == 1:
     print(b)
   else:
-    for i in range(2, n):
+    print(a," ", b)
+    for i in range(2, n+1):
       c = a + b
       print(c)
       a = b
